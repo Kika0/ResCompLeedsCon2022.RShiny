@@ -8,10 +8,28 @@ app_ui <- function(request) {
   tagList(
     # Leave this function for adding external resources
     golem_add_external_resources(),
+
     # Your application UI logic
-    fluidPage(
-      h1("ResCompLeedsCon2022.RShiny")
-    )
+    dashboardPage(
+      dashboardHeader(title =tags$a("Hanoi Transport Survey", href="https://urban-analytics.github.io/UTM-Hanoi/",target="_blank")),
+      dashboardSidebar(
+        sidebarMenu(
+
+          menuItem("selectInput example",tabName = "selectInput"),
+        menuItem("Widgets together",tabName = "widgets_together"),
+      menuItem("radioButtons tmap",tabName = "radioButtons_tmap"))
+        ),
+      dashboardBody(
+        shinyDashboardThemes(
+          theme = "blue_gradient"),
+        tabItems(
+          tabItem(tabName = "selectInput",
+                  mod_selectInput_ui("selectInput_1")),
+          tabItem(tabName = "widgets_together",
+                  mod_widgets_together_ui("widgets_together_1")),
+          tabItem(tabName = "radioButtons_tmap",
+                  mod_radioButtons_tmap_ui("radioButtons_tmap_1"))
+        )))
   )
 }
 

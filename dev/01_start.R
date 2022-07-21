@@ -21,7 +21,7 @@
 golem::fill_desc(
   pkg_name = "ResCompLeedsCon2022.RShiny", # The Name of the package containing the App
   pkg_title = "RShiny dashboard with dummy survey data built with Golem package", # The Title of the package containing the App
-  pkg_description = "This dashboard was developed to demonstrate RShiny functionality for academic work using geospatial survey data.", # The Description of the package containing the App
+  pkg_description = "This dashboard was developed to demonstrate R Shiny functionality for academic work using geospatial survey data.", # The Description of the package containing the App
   author_first_name = "Kristina", # Your First Name
   author_last_name = "Bratkova", # Your Last Name
   author_email = "kbratkov0@gmail.com", # Your Email

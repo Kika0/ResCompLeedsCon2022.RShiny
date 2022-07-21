@@ -1,18 +1,24 @@
 Package: ResCompLeedsCon2022.RShiny
 Title: RShiny dashboard with dummy survey data built with Golem package
 Version: 0.0.0.9000
-Authors@R: person('Kristina', 'Bratkova', email = 'kbratkov0@gmail.com', role = c('cre', 'aut'))
-Description: This dashboard was developed to demonstrate RShiny functionality for academic work using geospatial survey data.
+Authors@R: 
+    person("Kristina", "Bratkova", , "kbratkov0@gmail.com", role = c("cre", "aut"))
+Description: This dashboard was developed to demonstrate R Shiny
+    functionality for academic work using geospatial survey data.
 License: MIT + file LICENSE
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.3.2),
     shiny (>= 1.7.1)
-Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.1.1
 Suggests: 
     spelling,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Encoding: UTF-8
 Language: en-US
+LazyData: true
+RoxygenNote: 7.1.2
+Depends: 
+    dashboardthemes,
+    shinydashboard,
+    tidyverse
