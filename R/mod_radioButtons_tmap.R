@@ -10,7 +10,16 @@
 mod_radioButtons_tmap_ui <- function(id){
   ns <- NS(id)
   tagList(
-    h2("Map of origin and destination")
+
+    h2("Map of origin and destination for the selected vehicle"),
+    tags$p("The choropleth maps shows counts of origins and destinations from each Hanoi commune."),
+
+    radioButtons(inputId=ns("vehicle"),label= NULL,inline=TRUE,
+                 choices = c("Motorbike"="moto","Walk"="walk","Bus"="bus",
+                             "E-Bike"="ebike","Bike"="bike","Car"="car","Taxi"="taxi")),
+    fluidRow(
+  column(6,h3("Origin"),plotOutput(outputId = ns("Operveh"))),
+  column(6,h3("Destination"),plotOutput(outputId = ns("Dperveh"))))
   )
 }
 
