@@ -10,7 +10,17 @@
 mod_selectInput_ui <- function(id){
   ns <- NS(id)
   tagList(
-    h2("Traveltime per occupation")
+    h2("Traveltime per occupation"),
+    tags$p("The histogram shows counts of survey respondents in each bin of travel-time of the trips recorded."),
+    fluidRow(column(4,
+                    selectInput(ns("occupation"), label = "Occupation:",
+                                choices=c("FDI","Private","Retired","State","Student"),
+                                selected = "FDI"),
+                    hr(),
+                    helpText("Travel-time counts for a given occupation.
+                     Limits of x-axis are 0-120.")),
+             column(8,plotOutput(outputId=ns("travtimePlot")))
+    ) #end of traveltime per occupation fluidRow
   )
 }
 
