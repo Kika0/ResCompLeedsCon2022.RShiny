@@ -11,8 +11,10 @@ app_ui <- function(request) {
 
     # Your application UI logic
     dashboardPage(
-      dashboardHeader(title =tags$a("Hanoi Transport Survey", href="https://urban-analytics.github.io/UTM-Hanoi/",target="_blank")),
+      dashboardHeader(title =tags$a("ResCompLeedsCon2022", href="https://github.com/Kika0/ResCompLeedsCon2022.RShiny",target="_blank"),
+      titleWidth=250),
       dashboardSidebar(
+        width=250,
         sidebarMenu(
 
           menuItem("selectInput example",tabName = "selectInput"),
