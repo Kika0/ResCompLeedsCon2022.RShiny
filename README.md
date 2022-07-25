@@ -4,7 +4,7 @@
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
-The goal of ResCompLeedsCon2022.RShiny is to provide an example Shiny dashboard that can be used to share academic findings. These include interactive plots and maps with the use of HTML widgets.
+The goal of ResCompLeedsCon2022.RShiny is to provide an example Shiny dashboard that can be used to share academic findings, which was created for [ResCompLeedsCon2022](https://rescompleedscon.github.io/conference2022/). These include interactive plots and maps with the use of HTML widgets.
 
 ## Installation
 
