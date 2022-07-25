@@ -23,10 +23,10 @@ The original dashboard was created as a part of a wider project: [Urban Transpor
 ## Useful Resources
 
 - [Shiny Learning Resources](https://shiny.rstudio.com/tutorial/) 
-- [Mastering Shiny book](https://mastering-shiny.org/)
+- [Mastering Shiny book by Hadley Wickham](https://mastering-shiny.org/)
 - {golem} package documentation(https://thinkr-open.github.io/golem/index.html)
 - [Demonstration of the {golem} package](https://www.youtube.com/watch?v=3-p9XLvoJV0&t=622s)
-- [Engineering Production-Grade Shiny Apps book](https://engineering-shiny.org/)
+- [Engineering Production-Grade Shiny Apps book by Colin Fay et al.](https://engineering-shiny.org/)
 
 ## Acknowledgments
 
