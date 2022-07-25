@@ -1,16 +1,3 @@
----
-output: github_document
----
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
-
 # ResCompLeedsCon2022.RShiny
 
 <!-- badges: start -->
@@ -28,5 +15,22 @@ install_github("Kika0/ResCompLeedsCon2022.RShiny")
 library(ResCompLeedsCon2022.RShiny)
 run_app()
 ```
+
+## Hanoi Transport survey
+
+The original dashboard was created as a part of a wider project: [Urban Transport Modelling for Sustainable Well-Being in Hanoi](https://urban-analytics.github.io/UTM-Hanoi/intro.html). The interactive widgets update plots and maps to communicate survey findings. The dataset was created by randomizing the rows of the survey hence the values demonstate the functionality but do not show the survey findings.
+
+## Useful Resources
+
+- [Shiny Learning Resources](https://shiny.rstudio.com/tutorial/) 
+- [Mastering Shiny book](https://mastering-shiny.org/)
+- {golem} package documentation(https://thinkr-open.github.io/golem/index.html)
+- [Demonstration of the {golem} package](https://www.youtube.com/watch?v=3-p9XLvoJV0&t=622s)
+- [Engineering Production-Grade Shiny Apps book](https://engineering-shiny.org/)
+
+## Acknowledgments
+
+Acknowledgements to [Eric Wanjau](https://github.com/R-icntay) for helping with randomizing the survey responses and [Lex Comber](https://github.com/lexcomber) for the exploratory data analysis scripts that served as a starting point for the plots in the dashboard.
+
 
 
