@@ -20,5 +20,7 @@ LazyData: true
 RoxygenNote: 7.1.2
 Depends: 
     dashboardthemes,
+    ggsci,
+    R (>= 2.10),
     shinydashboard,
     tidyverse

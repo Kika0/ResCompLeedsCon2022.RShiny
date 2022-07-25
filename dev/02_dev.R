@@ -25,7 +25,7 @@ golem::add_module(name = "radioButtons_tmap", with_test = TRUE) # Name of the mo
 usethis::use_package( "tidyverse", type="depends")
 usethis::use_package( "shinydashboard", type="depends" )
 usethis::use_package( "dashboardthemes" , type="depends")
-
+usethis::use_package( "ggsci" , type="depends")
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*
@@ -41,8 +41,8 @@ golem::add_sass_file("custom")
 
 ## Add internal datasets ----
 ## If you have data in your package
-usethis::use_data_raw(name = "my_dataset", open = FALSE)
-
+usethis::use_data_raw(name = "data", open = FALSE)
+usethis::use_data(survey)
 ## Tests ----
 ## Add one line by test you want to create
 usethis::use_test("app")

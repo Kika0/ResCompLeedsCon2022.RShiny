@@ -6,4 +6,7 @@
 #' @noRd
 app_server <- function(input, output, session) {
   # Your application server logic
+
+  mod_selectInput_server("selectInput_1")
+  mod_widgets_together_server("widgets_together_1")
 }
