@@ -9,6 +9,7 @@ License: MIT + file LICENSE
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.3.2),
+    pkgload,
     shiny (>= 1.7.1)
 Suggests: 
     spelling,
@@ -23,4 +24,6 @@ Depends:
     ggsci,
     R (>= 2.10),
     shinydashboard,
-    tidyverse
+    tidyverse,
+    tmap,
+    viridis

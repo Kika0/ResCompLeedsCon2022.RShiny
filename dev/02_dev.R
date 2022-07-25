@@ -26,6 +26,8 @@ usethis::use_package( "tidyverse", type="depends")
 usethis::use_package( "shinydashboard", type="depends" )
 usethis::use_package( "dashboardthemes" , type="depends")
 usethis::use_package( "ggsci" , type="depends")
+usethis::use_package( "tmap" , type="depends")
+usethis::use_package( "viridis" , type="depends")
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*
