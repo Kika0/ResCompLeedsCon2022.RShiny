@@ -8,16 +8,18 @@ The goal of ResCompLeedsCon2022.RShiny is to provide an example Shiny dashboard 
 
 ## Installation
 
-You can install and run the development version of ResCompLeedsCon2022.RShiny like so:
+You can install the development version of ResCompLeedsCon2022.RShiny by running the following code:
 
 ``` r
 install.packages("devtools")
 library(devtools)
 install_github("Kika0/ResCompLeedsCon2022.RShiny")
+```
+Then, you can run the app (which will by default open in a new window):
+```r
 library(ResCompLeedsCon2022.RShiny)
 ResCompLeedsCon2022.RShiny::run_app()
 ```
-
 ## Hanoi Transport survey
 
 The original dashboard was created as a part of a wider project: [Urban Transport Modelling for Sustainable Well-Being in Hanoi](https://urban-analytics.github.io/UTM-Hanoi/intro.html). The interactive widgets update plots and maps to communicate survey findings. The dataset was created by randomizing the rows of the survey hence the values demonstate the functionality but do not show the survey findings.
