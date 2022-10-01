@@ -11,9 +11,11 @@ The goal of ResCompLeedsCon2022.RShiny is to provide an example Shiny dashboard 
 You can install and run the development version of ResCompLeedsCon2022.RShiny like so:
 
 ``` r
+install.packages("devtools")
+library(devtools)
 install_github("Kika0/ResCompLeedsCon2022.RShiny")
 library(ResCompLeedsCon2022.RShiny)
-run_app()
+ResCompLeedsCon2022.RShiny::run_app()
 ```
 
 ## Hanoi Transport survey
